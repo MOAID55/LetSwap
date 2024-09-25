@@ -1,0 +1,101 @@
+
+.heading{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(0, 171, 227); 
+    padding: 1px;
+}
+
+.profile{
+    display: flex; 
+    align-items: center;
+}
+
+.image_for_profile{
+    width: 45px; 
+    height: 45px; 
+    border-radius: 100%;
+}
+
+.tools {
+    text-align: right;
+    background-color: rgb(0, 171, 227);
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+
+
+.square {
+    width: 100%;
+    height:350px;
+    background-color: rgb(255, 255, 255); /* Blue background */
+    margin: 30px auto; /* Center horizontally */
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+hr{
+    margin: auto;
+}
+
+
+.images{
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    margin-left: 13px;
+    border-radius: 30%;
+}
+
+
+
+.square_images{
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 600px;
+    margin-top: 30px;
+    justify-content: flex-start;
+    gap: 80px;
+    width: 100%;
+    
+}
+
+/* ensure every image, have description and button */
+.images_items{
+    text-align: center;
+}
+
+/* Control the size, font type, and position of the text */
+.image_details {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.image-button {
+    background-color: rgb(0, 255, 0); /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* size of button */ 
+    margin-top: 10px;   
+    border-radius: 5px; 
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+

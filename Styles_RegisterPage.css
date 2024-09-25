@@ -1,0 +1,89 @@
+h2 {
+    text-align: center;
+}
+
+.square {
+    width: 400px;
+    height: 700px;
+    background-color: #3498db62; /* Blue background */
+    margin: 30px auto; /* Center horizontally */
+    border-radius: 20px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+    
+}
+
+.field-input {
+    width: 95%;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px; 
+    justify-content: flex;
+    margin-bottom: 10px;
+    position: relative;
+    top: -70px; /* Move the content 20px upwards */
+}
+
+
+label {
+    display: block; /* Ensures label is above the input */
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 70px; /* Space between label and input */
+    
+}
+
+
+button{
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+
+.forget{
+    align-content: left;
+    margin-top: -75px;
+}
+
+
+span{
+    color: red;
+}
+
+h1{
+    margin-left: 20px; font-family: 'Arial', sans-serif
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(0, 171, 227); 
+    padding: 1px;
+}
+
+.tools{
+    text-align: center;
+    background-color: rgb(0, 171, 227); 
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+hr{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

@@ -1,0 +1,63 @@
+.heading{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: rgb(0, 171, 227); 
+    padding: 1px;
+}
+
+.tools{
+    text-align: center;
+    background-color: rgb(0, 171, 227); 
+    padding: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.profile{
+    display: flex; 
+    align-items: center;
+}
+
+.image_for_profile{
+    width: 45px; 
+    height: 45px; 
+    border-radius: 100%;
+}
+
+
+label{
+    position: relative;
+    margin: 12px 0px;
+}
+
+
+
+input{
+    position: absolute;
+    left: 150px; 
+}
+
+.newLine{
+    display: block;
+    
+}
+
+
+hr{
+    margin: auto;
+}
+
+
+address{
+    text-align: center;
+}
+
+
+blockquote{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
